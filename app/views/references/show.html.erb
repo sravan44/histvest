@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= I18n.t("references.title")%>:</b>
+  <%= @reference.title %>
+</p>
+
+<p>
+  <b><%= I18n.t("references.creator")%>:</b>
+  <%= @reference.creator %>
+</p>
+
+<p>
+  <b><%= I18n.t("references.year")%>:</b>
+  <%= @reference.year %>
+</p>
+
+<p>
+  <b><%= I18n.t("references.lang")%>:</b>
+  <%= @reference.lang %>
+</p>
+
+<p>
+  <b><%= I18n.t("references.snippet")%>:</b>
+  <%= @reference.snippet %>
+</p>
+
+<p>
+  <b><%= I18n.t("references.url")%>:</b>
+  <%= @reference.url %>
+</p>
+
+
+<%= link_to I18n.t("crud_links.edit"), edit_reference_path(@reference) %> |
+<%= link_to I18n.t("crud_links.back"), references_path %>

@@ -1,0 +1,57 @@
+<div class="main-search-gap"></div>     
+<div class="main-search">
+  <div class="search-part line-h search-part-new">
+    <%= I18n.t('sidebar.latest_news', :default => 'Latest news') %>
+  </div>
+  <div class="top-table">    
+    <% Article.published.first(3).each_with_index do |r,i| %>
+    <div class="news-main">
+      <h4><%= r.title %></h4>
+      <p><span><%= r.created_at.strftime("%d.%m.%Y") if r.created_at %></span> <span><%= r.created_at.strftime("%H:%M") if r.created_at %></span></p>
+      <p><%= truncate_html(r.content, length: 115, omission: '...') %></p>
+      <p><%= link_to I18n.t("shared.sidebar.read_more", :default => "Les Mer"), article_path(r), :class => "read-more"%></p>
+    </div>
+    <% end %>    
+  </div>
+</div>
+
+<div class="main-search">
+  <div class="search-part line-h search-part-new">
+    <%= I18n.t('popular_search_of_week',:default=>'Mest søkt denne uken') %>
+  </div>
+  <div class="top-table top-table-new">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <% @frequent_topics = Topic.where(title: @frequent_searches.map {|fs| fs.search_string}) %>
+        <% @frequent_topics.each_with_index do |t, i| %>
+          <tr>
+            <td align="center" class="top-td-bg" width="10%"><%= i+1 %></td>
+            <td align="left" class="top-td-padd"><%= link_to t.title, t %></td>
+            <td align="center" width="12%"><%= link_to image_tag('arrow-green.jpg'), t %></td>
+          </tr>  
+        <% end %>        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<%= yield :sidebar %>
+
+<% if params[:controller] == 'welcome'%>
+  <script>
+    function goTosearch(t)
+    { 
+      $('#textfield').val(t);
+      $('#textfield').focus();
+      $('#textfield').keydown();    
+    }
+  </script>
+<%else%>
+  <script>
+    function goTosearch(t)
+    { 
+      document.cookie = 'key_val='+ t +'; expires=Fri, 3 Aug 2015 20:47:11 UTC; path=/';
+      window.location.href = "<%= root_url%>"
+    }
+  </script>
+<%end%>

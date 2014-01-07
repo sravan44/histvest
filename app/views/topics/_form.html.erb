@@ -1,0 +1,300 @@
+<style>
+  #map_canvas {height:200px;width:220px}
+  .hidden {
+    display: none;
+  }
+  input[type="radio"], input[type="checkbox"] {  margin: -6px 0 0;  *margin-top: 0;
+  /* IE7 */
+  margin-top: 1px \9;
+  /* IE8-9 */
+  line-height: normal;
+  cursor: pointer;
+  }
+  .publish-left li img {
+    margin-left: -4px;
+    margin-bottom: 10px;
+  }
+</style>
+<%= tinymce_assets %>
+<%= form_for @topic, :html => {:multipart => true} do |f| %>
+  <% if @topic.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= @topic.errors.count%> <%= I18n.t("error_head.header") %></h2>
+      <ul>
+      <% @topic.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div id="midd-wrapper">
+    <div class="default-main">
+      <div class="defult-left">
+        <div class="top-btn">
+          <%= f.submit I18n.t('topics.save', :default => "Save"), :class => "grn-btn-rgt-new" %>
+          <%= f.submit I18n.t("topics.form.save_and_quit", :default => "Lagre og avslutt"), :class => "grn-btn-rgt-new" %>
+          <%= link_to I18n.t('topics.cancel',:default=>"Cancel"), topics_path, :class => "gray-btn-rgt" %>
+        </div>
+        <div class="welcome-text">
+          <div class="topics">
+            <div class="topic-nam">
+              <%= f.text_field :title, :id => 'topic-title', :placeholder => t("topic.title",:default=>'Topic Title') %>
+            </div>
+            <div class="contnt-area">
+              <%= f.text_area(:content, :class => "tinymce", :id => "topic-content") %>
+              <%= tinymce %>
+            </div>
+            <div>&nbsp;</div>
+            <div class="publish-new" style="background:url(/assets/pub-bg-topic.png) repeat-y !important">
+              <div class="publish-left">
+                <ul>
+                  <li>
+                     <span style="float:left;">
+                    &nbsp;<%= I18n.t('topics.published_start',default: 'Publish Starts') %>: </span>
+                    <span style="float:left;width:130px;">
+                      <%= f.text_field :published_start, :value => params[:action]=='edit' && !@topic.published_start.nil? ? @topic.published_start.strftime('%d.%m.%Y %H:%M') : '',:style=>"width:82px;height:10px;margin-left: 11px;" %>
+
+                    <img src="/assets/cal-icon.png" id="pub_start" class="cal-icon1" alt="" style="cursor:pointer;"> </span>
+                    <span class="km-text" id="km_text_ps" style="margin: 0 10px;color: #393939;font-size:14px;">
+                      <strong><%= I18n.t("topics.form.time", :default => "Kl:") %></strong> <span><%= params[:action]=='edit' && !@topic.published_start.nil? ? @topic.published_start.strftime('%H:%M') : '00:00'%></span>
+                    </span>
+                  </li>
+                  <li>
+                    <span style="float:left;">
+                    &nbsp;<%= I18n.t('topics.published_end',default: 'Publish Ends') %>: </span>
+                    <span style="float:left;width:130px;"><%= f.text_field :published_end, :value => params[:action]=='edit' && !@topic.published_end.nil? ? @topic.published_end.strftime('%d.%m.%Y %H:%M') : '',:style=>"width:82px;height:10px;margin-left: 17px;" %>
+
+                    <img src="/assets/cal-icon.png" id="pub_end" class="cal-icon1" alt="" style="cursor:pointer;"> </span>
+                    <span class="km-text" id="km_text_pe" style="margin: 0 13px;color: #393939; font-size:14px;">
+                      <strong><%= I18n.t("topics.form.time", :default => "Kl:") %></strong> <span><%= params[:action]=='edit' && !@topic.published_end.nil? ? @topic.published_end.strftime('%H:%M') : '00:00'%></span>
+                    </span>
+                  </li>
+                  <% if can? :verify, Topic %>
+                  <li class="last">
+
+                    &nbsp;<%= f.check_box :published %> <%= I18n.t('topic.publish', :default => 'Publish') %>
+                  </li>
+                  <% end %>
+                </ul>
+              </div>
+              <div class="upload-images">
+                <h4><%= I18n.t("topics.form.main_images", :default => "Main Images:") %></h4>
+                <div class="upload-img-div" id="upload-img-div">
+                  <%= !@topic.nil? && !@topic.avatar.nil? && !@topic.avatar.avatar_img.nil? ? image_tag(@topic.avatar.avatar_img.url(:thumb)) : image_tag("/assets/upload-img.gif") %>
+                </div>
+                <output id="list"></output>
+                <span><% avatar_name = @topic.avatar.avatar_img_file_name if @topic && @topic.avatar && @topic.avatar.avatar_img %></span
+                <a href="#" class="btn-upload">
+                  <input type="file" name="avatar[avatar_img]" id="avatar_avatar_img" style="display:none;width:15px;" >
+                  <input type="text" id="filename" readonly="true" style="width:80px;" value="<%=avatar_name%>"/><br />
+                  <input type="button" value="<%=params[:action] == 'edit' ? 'Replace' : 'Upload' %>" class="btn-upload" id="fakeBrowse" onclick="HandleBrowseClick();" style="margin-top: 0px;" />
+                  <output id="list"></output>
+                </a>
+              </div>
+              &nbsp;&nbsp;&nbsp;<%= f.check_box :avatar_delete %> <%= I18n.t('topic.delete_image',:default => 'Delete Image') %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="default-right mt-10">
+        <div class="map-right-location" id="map_div">
+          <div class="location-hd">
+              <div class="location-icon">
+                <a href="javascript:void(0)" id="marker_toggle" title="<%= I18n.t("topics.add_location") %>"><img src="/assets/pin-icon.png" alt=""></a>
+                <a href="javascript:void(0)" id ="marker_adder" title="<%= I18n.t("topics.add_location") %>">
+                  <img src="/assets/icon-plus.png" alt="">
+                </a>
+              </div>
+              <%= I18n.t("topics.form.add_locations", :default => "Add Locations") %>
+          </div>
+
+          <div class="location-inner">
+            <div class="map-new">
+              <div id="map_canvas"></div>
+            </div>
+            <div class="search-box">                      
+              <input type="text" id="add-location-input" placeholder="<%= I18n.t('topics.add_location',:default=>"Add new location") %>">              
+              <a href="javascript:;" id="add-location"><img src="/assets/icon-plus.png"></a>    
+            </div>
+            <div id="locations-list-container"> </div>
+          </div>
+        </div>
+
+        <div class="map-right-location">
+          <div class="location-hd"><%= I18n.t("topics.form.locations-explanation-header", :default => "Explanation of marker colors") %></div>
+          <table class="location-marker-icons-explanation">
+            <tr>
+              <td>
+                <img src="http://www.google.com/intl/en_us/mapfiles/ms/micons/yellow-dot.png" />
+              </td>
+              <td>
+                <%= I18n.t("topics.form.marker-not-connected", :default => "Marker not connected to any topic") %>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png" />
+              </td>
+              <td>
+                <%= I18n.t("topics.form.marker-not-connected-this-topic", :default => "Marker not connect to this topic") %>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png" />
+              </td>
+              <td>
+                <%= I18n.t("topics.form.marker-connected-this-topic", :default => "Marker is connected to this tema") %>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="deleted-references-list-container"></div>
+
+        <div class="default-right mt-15" >
+          <div class="map-right-location">
+            <div class="location-hd"><%= I18n.t("topics.form.sources", :default => " Sources ") %></div>
+            <div class="source-inner">
+              <ul id="reference-list-container"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    <div class="inner-page" id="reference-wrapper">
+      <div class="inner-head">
+        <h1><%= I18n.t("references.references")%></h1>
+      </div>
+      <div class="listing-part newlistng">
+        <div id="references-container"></div>
+        <div id="reference-search-container"></div>
+        <div class="tbbng">
+          <div class="tbs">
+            <a href="#nb" class="active">
+              <%= I18n.t("references.national_library")%>
+              <span id="spinner-container-nb"></span>
+            </a>
+            <a href="#wiki">
+              <%= I18n.t("references.wikipedia")%>
+              <span id="spinner-container-wiki"></span>
+            </a>
+            <a href="#europeana">
+              <%= I18n.t("references.europeana")%>
+              <span id="spinner-container-europeana"></span>
+            </a>
+          </div>
+          <div class="tbs-cntnt" id="nb">
+            <table width="100%" border="0" cellspacing="1" cellpadding="0">
+              <%= render 'thead' %>
+              <tbody id="nb-reference-table"> </tbody>
+            </table>
+          </div>
+          <div class="tbs-cntnt" id="wiki">
+            <table width="100%" border="0" cellspacing="1" cellpadding="0">
+              <%= render 'thead' %>
+              <tbody id="wiki-reference-table"></tbody>
+            </table>
+          </div>
+          <div class="tbs-cntnt" id="europeana">
+            <table width="100%" border="0" cellspacing="1" cellpadding="0">
+              <%= render 'thead' %>
+              <tbody id="europeana-reference-table"></tbody>
+            </table>
+          </div>
+          <div class="tbs-cntnt" id="ar">
+            <table width="100%" border="0" cellspacing="1" cellpadding="0">
+              <%= render 'thead' %>
+              <tbody id="ar-reference-table"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script type="text/javascript">
+  // get icons in a hash for quick access
+  var icon_red = "http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png";
+  var icon_blue = "http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png";
+  var reference_type_icons = {};  
+  <% ReferenceType.all.each do |rt| %>
+  reference_type_icons["<%= rt.id %>"] = <%= raw image_tag(rt.icon, :alt=>rt.name, :title=>rt.name).to_json %>;
+  <% end %>
+  var referece_type_unknown = <%= raw image_tag("rt-ukjent-icon.png").to_json %>;  
+  $(function() {
+
+    $('#topic_published_start, #topic_published_end').datetimepicker({
+      controlType: 'select',
+      dateFormat: 'dd.mm.yy',
+      timeFormat: 'hh:mm'
+    });
+
+    $( "#km_text_ps, #pub_start" ).click( function(){
+      $("#topic_published_start").trigger('focus');
+    });
+    $( "#km_text_pe, #pub_end" ).click( function(){
+      $("#topic_published_end").trigger('focus');
+    });
+    $('#topic_published_start').change(function(){
+      var tmp = $('#topic_published_start').val() ;
+      $('#km_text_ps').html("<strong><%= I18n.t('topics.form.time', :default => 'Kl: ') %></strong>"+tmp.split(' ')[1])
+    })
+
+    $('#topic_published_end').change(function(){
+      var tmp = $('#topic_published_end').val() ;
+      $('#km_text_pe').html("<strong><%= I18n.t('topics.form.time', :default => 'Kl: ') %></strong>"+tmp.split(' ')[1])
+    })
+    // // Sort the reference-list-container elements
+    $("#reference-list-container").sortable();
+    $( document ).tooltip();
+
+
+
+  });
+
+  $('div.tbs > a').click(function(e) {
+    e.preventDefault();
+    $('div.tbs > a').removeClass('active');
+    $(this).addClass('active');
+    $('div.tbs-cntnt').hide();
+    $('div.tbs-cntnt'+$(this).attr('href')).show();
+  });
+  $('div.tbs > a').first().triggerHandler('click');
+</script>
+
+<script>
+  function handleFileSelect(evt) {
+    var fileinput = $("#avatar_avatar_img");
+    var textinput = $("#filename");
+    textinput.val(fileinput.val());
+    var files = evt.target.files;
+    for (var i = 0, f; f = files[i]; i++) {
+      if (!f.type.match('image.*')) {
+        continue;
+      }
+      var reader = new FileReader();
+      reader.onload = (function(theFile) {
+        return function(e) {
+          var span = document.getElementById('upload-img-div');
+          span.innerHTML = ['<img height="100" width="100" class="thumb" src="', e.target.result,
+                            '" title="', escape(theFile.name), '"/>'].join('');
+          $("#fakeBrowse").attr('value', 'Replace');
+          $('output').insertBefore(span, null);
+        };
+      })(f);
+      reader.readAsDataURL(f);
+    }
+  }
+  function HandleBrowseClick(){
+    var fileinput = $("#avatar_avatar_img");
+    fileinput.click();
+    var textinput = $("#filename");
+    textinput.val(fileinput.val());
+  }
+  document.getElementById('avatar_avatar_img').addEventListener('change', handleFileSelect, false);
+</script>

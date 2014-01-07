@@ -1,0 +1,15 @@
+<li data-id="<%= location.cid %>">
+  <input type="hidden" name="locations_attributes[][id]" value="<%= location.id %>">
+  <% if(location.isEditable()) { %>  
+  <input type="hidden" name="locations_attributes[][address]" value="<%= location.escape('title') %>">
+  <input type="hidden" name="locations_attributes[][latitude]" value="<%= location.get('lat') %>">
+  <input type="hidden" name="locations_attributes[][longitude]" value="<%= location.get('lng') %>">  
+  <% } %>
+  <div class="location-con">    
+    <div class="location-right-icon">                   
+      <a href="javascript:" class="zoom-location"><img src="/assets/view-icon.png" alt=""></a>             
+      <a href="javascript:" class="remove-location"><img src="/assets/icon-minus.png" alt=""></a>
+    </div>        
+    <p><%= $.trim(location.get('title'))=='' ? location.get('geo_address') :  location.get('title') %></p>    
+  </div>
+</li>

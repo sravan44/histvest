@@ -1,0 +1,18 @@
+<% if @rand_topic%>
+  <h3><%=@rand_topic.title%> <%= link_to image_tag("/assets/refresh-icon-green.jpg", width: "18",  height: "15"), take_another_topic_path, remote: true %></h3>
+  <p>
+<%
+	if (!@rand_topic.nil? && !@rand_topic.avatar.nil? && !@rand_topic.avatar.avatar_img.nil?)
+		concat image_tag(@rand_topic.avatar.avatar_img.url(:infowindow), style: 'max-width:180px; max-height:180px') 
+	end
+%> 
+  	<%= truncate_html(@rand_topic.content, length: 300, omission: '...')%>  
+    <p class='view-more-btn'>
+      <a href="<%= topic_path(@rand_topic) %>" title="Les mer" class="les-mer-but">
+        <img src="/assets/les-mer-but.jpg" width="72" height="27" style="margin-top: -5px;">
+      </a>
+    </p>
+  </p>
+<% else %>
+  <p><%= I18n.t('welcome.no_topics', :default => 'There are no topics') %><p>
+<% end %>

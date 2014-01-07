@@ -1,0 +1,24 @@
+<div class="inner-page">
+  <div class="inner-head">
+    <h1>miscellaneous</h1>
+  </div>
+  <div class="listing-part">
+    <table class="data-table" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+        <td>Number of orphan locations: </td>
+        <td><%= @orphan_locations %></td>
+        <td><%= link_to "Remove", delete_orphan_locations_path, :method=>:post %></td>
+      </tr>
+      <tr>
+        <td>Article used on front page:</td>
+        <td></td>
+        <td>
+        <%= form_tag ("misc/set_article") do %>
+          <%= select_tag(:article_id, options_for_select(@articles.collect {|a| [a.title, a.id]})) %>
+          <%= submit_tag("Set to frontpage") %>
+        <% end %>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

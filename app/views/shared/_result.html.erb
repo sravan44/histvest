@@ -1,0 +1,21 @@
+<div class="search-result-list">
+  <ul>
+    <% if @results%>
+      <% @results.each_with_index do |r,i| %>
+        <% last = i+1 == @results.count ? 'last' : ''%>
+        <li class="<%=last%>">
+          <h2><%= link_to r.title, topic_path(r) %>
+          <span class="res-date"><%= r.published_start if r.published_start %></span>
+          </h2>
+          <p>
+            <%#= strip_tags(r.content).truncate(100) %>
+            <%= truncate_html(r.content, length: 100, omission: '...') %>
+          </p>
+          <div style="float: left; width: 100%; margin-top: 5px;">
+            <%= link_to I18n.t("shared.result.read_more", :default => "read more"), topic_path(r), :class => "read-more" %>      
+          </div>
+        </li>    
+      <% end %>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,11 @@
+<li>
+  <input value="<%= reference.get('url') %>" type="hidden" name="topic[references_attributes][<%= reference.trueIdOrRandomId() %>][url]" />
+  <input value="<%= reference.get('id') %>" type="hidden" name="topic[references_attributes][<%= reference.trueIdOrRandomId() %>][id]" />
+  <input value="0" type="hidden" name="topic[references_attributes][<%= reference.trueIdOrRandomId() %>][_destroy]" />
+
+  <a href="javascript:" class="remove-reference sorce-right-icon" id="reference-<%= reference.cid %>"></a>
+
+  <a href="<%=reference.get('url')%>" target="_blank" title="<%=reference.get('creator')%>">
+    <%= reference.get('title') %> <span>(<%=reference.get('creator')  %>)</span>
+  </a>
+</li>

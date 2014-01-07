@@ -1,0 +1,33 @@
+<h1><%= I18n.t("references.listing")%></h1>
+
+<table class="table table-striped table-bordered table-hover table-condensed">
+  <tr>
+    <th><%= I18n.t("references.title")%></th>
+    <th><%= I18n.t("references.creator")%></th>
+    <th><%= I18n.t("references.year")%></th>
+    <th><%= I18n.t("references.lang")%></th>
+    <th><%= I18n.t("references.snippet")%></th>
+    <th><%= I18n.t("references.url")%></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @references.each do |reference| %>
+  <tr>
+    <td><%= reference.title %></td>
+    <td><%= reference.creator %></td>
+    <td><%= reference.year %></td>
+    <td><%= reference.lang %></td>
+    <td><%= reference.snippet %></td>
+    <td><%= reference.url %></td>
+    <td><%= link_to I18n.t('crud_links.show'), reference %></td>
+    <td><%= link_to I18n.t('crud_links.edit'), edit_reference_path(reference) %></td>
+    <td><%= link_to I18n.t('crud_links.delete'), reference, 'data-confirm' => I18n.t('confirm_message'), method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to I18n.t("references.new_reference"), new_reference_path %>

@@ -1,0 +1,24 @@
+<div class="front-page">
+  <ul>
+    <% if can? :manage, :all %>
+    <li><a href="/users"><span class="user">&nbsp;</span><em><%= I18n.t('admin.users', :default => 'Users') %></em></a>
+        <p><%= I18n.t('admin.users_description', :default => 'Here you can add new users, edit existing users and change users permissions.') %></p>  
+    </li>
+    <% end %>
+    <% if can? :read, Topic %>
+    <li><a href="/topics"><span class="theme">&nbsp;</span><em><%= I18n.t('admin.topics', :default => 'Topics') %></em></a>
+        <p><%= I18n.t('admin.topics_description', :default => 'Here you can add and edit topics.') %></p>
+    </li>
+    <% end %>
+    <% if can? :read, Article %>
+    <li><a href="/articles"><span class="news">&nbsp;</span><em><%= I18n.t('admin.news', :default => 'News') %></em></a>
+        <p><%= I18n.t('admin.news_description', :default => 'Here you can add and edit topics.') %></p>
+    </li>
+    <% end %>
+    <% if can? :manage, :all %>
+    <li><a href="/search_stats"><span class="setting">&nbsp;</span><em><%= I18n.t('admin.statistics', :default => 'Statistics') %></em></a>
+        <p><%= I18n.t('admin.statistics_description', :default => 'Here you can see statistics of searches.') %></p>
+    </li>
+    <% end %>
+  </ul>
+</div>

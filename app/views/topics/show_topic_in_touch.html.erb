@@ -1,0 +1,55 @@
+<div style="border-radius: 6px;background: #fff;box-shadow: 0px 0px 2px 1px #dadada;width:100%;float:left;padding-bottom:14px">
+  <div style="margin-left:20px">
+    <div id="topics-content container">
+      <div style="margin-bottom:20px; padding-top:0px;" class="admin-table">
+        <h1 style="width:60%">
+          <span ><%= first_word @topic.title %></span>
+              <%= trailing_words @topic.title %>
+        </h1>
+        <div class="social-icon-right">
+          <%= render "/shared/shared_buttons"%>    
+        </div>
+      </div>
+    </div>
+    <div class="right-image"><%= !@topic.nil? && !@topic.avatar.nil? && !@topic.avatar.avatar_img.nil? ? image_tag(@topic.avatar.avatar_img.url(:medium)) : image_tag("/assets/no-image.png") %>
+    </div>
+    <div class="topic-content"><p><%= raw @topic.content %></p></div>
+    <div class="ref-list admin-table">
+      <h1><%= "References" %></h1>
+        <ul class="topic-references">
+          <% @topic.references.each_with_index do |ref,i| %>
+          <li>
+            <%= link_to image_tag( ref.reference_type.nil? ? "rt-ukjent-icon.png" : ref.reference_type.icon, :height => 16, :title => ref.title,  :alt => ref.reference_type.try(:name)), !ref.title.blank? ? ref.title : ref.url %>          
+            <%= link_to !ref.title.blank? ? ref.title : ref.url, ref.url, :target => "_blank", :alt=>ref.url, :title=> "#{ref.creator}, #{ref.lang}, #{ref.year},, #{ref.snippet}",:style=>"color: rgb(53, 166, 65);"%> <%= "(#{ref.creator})" if ref.creator %>
+          </li>
+          <% end if @topic.references %>
+        </ul>
+        <div class="btn-edit-div">
+          <% if signed_in? %>
+            <%= link_to I18n.t("crud_links.edit"), edit_topic_path(@topic) %>
+          <% end %>
+        </div>
+    </div>
+  </div> 
+  <div style="margin-left:22px">
+    <div class="admin-table">
+      <h1><%= I18n.t("comments.comments") %></h1> 
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'historiskevestfold'; // required: replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript"><%= I18n.t("topics.show.comments_powered_by_disqus", :default => "comments powered by Disqus.") %></a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus"><%= I18n.t("topics.show.disqus", :default => "Disqus") %></span></a>
+  </div> 
+</div>
+<style>
+  #references ul li a{color:#0088CC;font-family:'LucidaGrandeRegular',Arial,Helvetica,sans-serif; }
+</style>

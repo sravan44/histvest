@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+    <title><%= @title %></title>
+    <%= csrf_meta_tags %>
+    <%= favicon_link_tag 'favicon.ico' %>
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+    Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-44183163-1', 'histvest.no');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body class="<%= params[:controller] %>-controller <%= params[:action] %>-admin" id="<%= params[:controller] %>-<%= params[:action] %>">
+    <div id="main-wrapper">
+      <div id="top-wrapper">
+        <div class="wrapper">
+          <%= render 'shared/top_header' %>
+          <div id="main-class">
+            <div id="main-left">
+              <div id="header" class="header-new">
+                 <div class="header-left"> <%= link_to image_tag("logo-new.jpg") , root_path %> </div>
+                 <div class="header-right"> <span><%= I18n.t("layouts.public.historiske_vestfold", :default => " Historiske Vestfold ") %></span> </div>
+              </div>
+              <div class="middle">
+                <%= yield %>
+              </div>
+            </div>
+            <div id="main-right">
+              <%= render 'shared/sidebar' %>
+            </div>            
+          </div>
+
+        </div>      
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer-new">
+      <%= render 'shared/footer' %>
+    </div>
+  </body>
+</html>

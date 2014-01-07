@@ -1,0 +1,355 @@
+HTTP/1.0 200 OK
+Date: Wed, 20 Feb 2013 17:03:39 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Content-Language: nb
+Vary: Accept-Encoding,Cookie
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Length: 27953
+Content-Type: text/html; charset=UTF-8
+X-Cache: MISS from sq72.wikimedia.org
+X-Cache-Lookup: MISS from sq72.wikimedia.org:3128
+X-Cache: MISS from amssq40.esams.wikimedia.org
+X-Cache-Lookup: MISS from amssq40.esams.wikimedia.org:3128
+X-Cache: MISS from knsq28.esams.wikimedia.org
+X-Cache-Lookup: MISS from knsq28.esams.wikimedia.org:80
+Connection: close
+
+<!DOCTYPE html>
+<html lang="nb" dir="ltr" class="client-nojs">
+<head>
+<title>Søkeresultater for «svend» - Wikipedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="apple-touch-icon" href="//no.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (nb)" />
+<link rel="EditURI" type="application/rsd+xml" href="//no.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom-mating" href="/w/index.php?title=Spesial:Siste_endringer&amp;feed=atom" />
+<link rel="stylesheet" href="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=ext.gadget.ReferenceTooltips%2Ccontributions-report%2Cfeatured-language-links%2Cinternational-language-links%2Cmove-edit-links%2Cmove-maintenance-messages%2Cupload-wizard-commons%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.special%7Cmw.PopUpMediaTransform%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: nowiki:resourceloader:filter:minify-css:7:1f1b87b6a5d3f7c65b7eddd42e060025 */</style>
+
+<script src="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Search","wgNamespaceNumber":-1,"wgPageName":"Spesial:Søk","wgTitle":"Søk","wgCurRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"nb","wgSeparatorTransformTable":[",	."," 	,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"],"wgMonthNamesShort":["","jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"],"wgRelevantPageName":"Spesial:Søk","wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wikilove-recipient":"","wikilove-anon":0,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikilove-enabled":1,"variant":"nb","language":"nb","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"gadget-move-maintenance-messages":1,"gadget-ReferenceTooltips":1,"gadget-move-edit-links":1,"gadget-upload-wizard-commons":1,"gadget-international-language-links":1,"gadget-featured-language-links":1,"gadget-contributions-report":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\",
+"patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: nowiki:resourceloader:filter:minify-js:7:2b084f0a02f8ceeee3c884e4571a802e */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralNotice.bannerController"]);
+}</script>
+<script src="//bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="//meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-Search page-Spesial_Søk skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="nb"><span dir="auto">Søkeresultater</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Gå til:					<a href="#mw-head">navigasjon</a>, 					<a href="#p-search">søk</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text"><form id="search" method="get" action="/w/index.php"><table id="mw-search-top-table" cellpadding="0" cellspacing="0"><tr><td>
+<input type="hidden" value="Spesial:Søk" name="title" /><input type="hidden" value="default" name="profile" />
+<input id="searchText" size="50" autofocus="" type="search" value="svend" name="search" />
+<input type="hidden" value="Search" name="fulltext" />
+<input type="submit" value="Søk" />
+</td></tr></table><div class="mw-search-formheader"><div class="search-types"><ul><li class="current"><a href="/w/index.php?title=Spesial:S%C3%B8k&amp;search=svend&amp;fulltext=S%C3%B8k&amp;profile=default&amp;redirs=1" title="Søk i (Hoved)">Innholdssider</a></li><li class="normal"><a href="/w/index.php?title=Spesial:S%C3%B8k&amp;search=svend&amp;fulltext=S%C3%B8k&amp;profile=images&amp;redirs=1" title="Søk etter filer">Multimedia</a></li><li class="normal"><a href="/w/index.php?title=Spesial:S%C3%B8k&amp;search=svend&amp;fulltext=S%C3%B8k&amp;profile=help&amp;redirs=1" title="Søk i Wikipedia, Hjelp">Hjelp- og prosjektsider</a></li><li class="normal"><a href="/w/index.php?title=Spesial:S%C3%B8k&amp;search=svend&amp;fulltext=S%C3%B8k&amp;profile=all&amp;redirs=1" title="Søk i alt innhold (inkldert diskusjonssider)">Alt</a></li><li class="normal"><a href="/w/index.php?title=Spesial:S%C3%B8k&amp;search=svend&amp;fulltext=S%C3%B8k&amp;profile=advanced&amp;redirs=1" title="Søk i visse navnerom">Avansert</a></li></ul></div><div class="results-info"><ul><li>Resultat <b>1 - 20</b> av <b>611</b> for <b>svend</b></li></ul></div><div style="clear:both"></div></div></form><div class='searchresults'><p class="mw-search-createlink">
+<ul><li> Siden <b><a href="/wiki/Svend" title="Svend" class="mw-redirect">Svend</a></b></p>
+</li></ul>
+
+<!-- Search results fetched via search=[search1016], highlight=[search1021], suggest=[search1020] in 38 ms -->
+<ul class='mw-search-results'>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svein" title="Svein">Svein</a> <span class='searchalttitle'>(omdirigering <a href="/wiki/Svend" title="Svend"><span class='searchmatch'>Svend</span></a>)</span> </div> <div class='searchresult'>Svein, Sveine, Sveinn, Sven og <span class='searchmatch'>Svend</span> er nordiske  mannsnavn  som stammer fra det norrøne  sveinn som betyr «gutt » eller «ung (ugift) mann <b>...</b> </div>
+<div class='mw-search-result-data'>15 KB (1 996 ord) - 18. feb 2013 kl. 05:03</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Foyn" title="Svend Foyn"><span class='searchmatch'>Svend</span> Foyn</a>  </div> <div class='searchresult'>thumb | <span class='searchmatch'>Svend</span> Foyns bedehus i krysset Øvre langgate og St. Olavs gate. <span class='searchmatch'>Svend</span> Foyn (utt. « føyn; født 9. juli  1809  i Foynegården  i  <b>...</b> </div>
+<div class='mw-search-result-data'>4 KB (570 ord) - 28. nov 2012 kl. 17:10</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Wam" title="Svend Wam"><span class='searchmatch'>Svend</span> Wam</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Olaf Wamnes Akstuft (født 5. mai  1946  i Son  i Akershus ), kjent under navnet <span class='searchmatch'>Svend</span> Wam, er en norsk  filmregissør  og filmprodusent <b>...</b> </div>
+<div class='mw-search-result-data'>2 KB (247 ord) - 7. jan 2013 kl. 02:18</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Asmussen" title="Svend Asmussen"><span class='searchmatch'>Svend</span> Asmussen</a>  </div> <div class='searchresult'>thumb | <span class='searchmatch'>Svend</span> Asmussen på forsida av ukebladet Se 1945   thumb | Den dansk-svenske jazz-trioen Swe-Danes bestod av <span class='searchmatch'>Svend</span> Asmussen, Alice  <b>...</b> </div>
+<div class='mw-search-result-data'>4 KB (456 ord) - 25. des 2011 kl. 00:48</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Auken" title="Svend Auken"><span class='searchmatch'>Svend</span> Auken</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Gunnarsen Auken (født 24. mai  1943  i Århus , død 4. august  2009  i København ) var en dansk politiker som representerte  <b>...</b> </div>
+<div class='mw-search-result-data'>3 KB (320 ord) - 20. mai 2012 kl. 01:47</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Grundtvig" title="Svend Grundtvig"><span class='searchmatch'>Svend</span> Grundtvig</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Hersleb Grundtvig (født 9. september  1824 , død 14. juli  1883 ) var dansk litteratur- og språkforsker, som særlig arbeidet med  <b>...</b> </div>
+<div class='mw-search-result-data'>1 KB (136 ord) - 19. mai 2012 kl. 06:43</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Asp%C3%A5s" title="Svend Aspås"><span class='searchmatch'>Svend</span> Aspås</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Halvorsen Aspaas (født 1736  i Ålen , død 1816  på Røros ) var en norsk byggmester , arkitekt og kirkebygger. <span class='searchmatch'>Svend</span> Aspaas kom tidlig  <b>...</b> </div>
+<div class='mw-search-result-data'>5 KB (756 ord) - 4. feb 2013 kl. 22:00</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Karlsen" title="Svend Karlsen"><span class='searchmatch'>Svend</span> Karlsen</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Karlsen (født 6. oktober  1967  i Drammen ) er en tidligere norsk  vinner av konkurransen verdens sterkeste mann .  Han er den eneste <b>...</b> </div>
+<div class='mw-search-result-data'>2 KB (290 ord) - 10. feb 2013 kl. 22:39</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Pedersen" title="Svend Pedersen"><span class='searchmatch'>Svend</span> Pedersen</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Ove Pedersen (født 31. oktober  1920  i Frederiksværk , død 3. august  2009 ) var en dansk  roer  som deltok i de olympiske leker   <b>...</b> </div>
+<div class='mw-search-result-data'>1 KB (130 ord) - 29. jan 2012 kl. 18:51</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Otto_S." title="Svend Otto S."><span class='searchmatch'>Svend</span> Otto S.</a>  </div> <div class='searchresult'>thumb | H.C. Andersen-prisen  for illustrasjoner 1978  <span class='searchmatch'>Svend</span> Otto S., egentlig <span class='searchmatch'>Svend</span> Otto Sørensen (født 1916  i København , død 1996 ) var  <b>...</b> </div>
+<div class='mw-search-result-data'>1 KB (151 ord) - 9. feb 2012 kl. 22:23</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Dahl" title="Svend Dahl"><span class='searchmatch'>Svend</span> Dahl</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Dahl (1887 –1963 ) var en dansk bibliotekar  som arbeidet ved Universitetsbiblioteket i København, og som riksbibliotekar fra 1943 til <b>...</b> </div>
+<div class='mw-search-result-data'>431 B (39 ord) - 27. okt 2012 kl. 16:55</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svein_Estridsson" title="Svein Estridsson">Svein Estridsson</a> <span class='searchalttitle'>(omdirigering <a href="/wiki/Svend_Estridsen" title="Svend Estridsen"><span class='searchmatch'>Svend</span> Estridsen</a>)</span> </div> <div class='searchresult'>Svein Estridsson (dansk: <span class='searchmatch'>Svend</span> Estridsen), født ca. 1018 , død 1076  var konge av Danmark  i tidsrommet 1047 –1076 ), sønn av jarl Ulf  <b>...</b> </div>
+<div class='mw-search-result-data'>11 KB (1 512 ord) - 23. des 2012 kl. 13:36</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/FLK_%C2%ABSvend_Foyn%C2%BB_(1931)" title="FLK «Svend Foyn» (1931)">FLK «<span class='searchmatch'>Svend</span> Foyn» (1931)</a>  </div> <div class='searchresult'>FLK «<span class='searchmatch'>Svend</span> Foyn» var et flytende hvalkokeri , bygget i 1931 for Hvalfangerselskapet Sydhavet A/S (Johan Rasmussen & Co, Sandefjord) til  <b>...</b> </div>
+<div class='mw-search-result-data'>3 KB (345 ord) - 14. sep 2011 kl. 14:00</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Erichsen" title="Svend Erichsen"><span class='searchmatch'>Svend</span> Erichsen</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Erichsen (født 15. mai  1987 ) er en norsk  skuespiller  og musiker  fra Oslo .  Bakgrunn: <span class='searchmatch'>Svend</span> Erichsen er sønn av journalist og  <b>...</b> </div>
+<div class='mw-search-result-data'>5 KB (635 ord) - 4. feb 2013 kl. 23:55</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Tr%C3%A5seth" title="Svend Tråseth"><span class='searchmatch'>Svend</span> Tråseth</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Tråseth (Traaseth, Trådset, Trosset) (født i Fåberg  omkring 1699 , død i Sør-Aurdal  1769 ) var en norsk byggmester, kjent for  <b>...</b> </div>
+<div class='mw-search-result-data'>889 B (126 ord) - 10. mai 2008 kl. 11:29</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Aage_Ellefsen" title="Svend Aage Ellefsen"><span class='searchmatch'>Svend</span> Aage Ellefsen</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Aage Højgaard Ellefsen (født 13. september  1941  i Miðvágur ) er en færøysk  skipsreder og tidligere politiker (FF ). Han har examen <b>...</b> </div>
+<div class='mw-search-result-data'>2 KB (218 ord) - 15. sep 2012 kl. 21:56</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Aschenberg" title="Svend Aschenberg"><span class='searchmatch'>Svend</span> Aschenberg</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Aschenberg (født 27. september  1769  på Molde , død 31. mars  1845  på Røros ) var en norsk prost  og stortingsmann  som i 40 år var <b>...</b> </div>
+<div class='mw-search-result-data'>3 KB (354 ord) - 5. des 2012 kl. 15:54</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Olsen" title="Svend Olsen"><span class='searchmatch'>Svend</span> Olsen</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Egil Benjamin Olsen (født 17. oktober  1908  i Sydthy , død 13. desember  1980  Hundested ) var en dansk  vektløfter  som deltok i de  <b>...</b> </div>
+<div class='mw-search-result-data'>1 KB (131 ord) - 17. feb 2013 kl. 18:52</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_Borchmann_Hersleb" title="Svend Borchmann Hersleb"><span class='searchmatch'>Svend</span> Borchmann Hersleb</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Borchmann Hersleb (født 7. mars  1784  på Alstadhaug  i Nordland , død 12. september  1836 ) var en norsk teolog  og den første leder <b>...</b> </div>
+<div class='mw-search-result-data'>5 KB (737 ord) - 27. jan 2013 kl. 22:33</div></li>
+<li><div class='mw-search-result-heading'><a href="/wiki/Svend_R%C3%B8nning" title="Svend Rønning"><span class='searchmatch'>Svend</span> Rønning</a>  </div> <div class='searchresult'><span class='searchmatch'>Svend</span> Rønning (født 18. mai  1919  i Kragerø ) er en norsk forfatter. Rønning vokste opp på Nordstrand  i Oslo.  Han tok handelsskole og  <b>...</b> </div>
+<div class='mw-search-result-data'>1 KB (153 ord) - 3. feb 2009 kl. 20:07</div></li>
+</ul>
+</div><p class='mw-search-pager-bottom'>Vis (forrige 20  |  <a href="/w/index.php?title=Spesial:S%C3%B8k&amp;limit=20&amp;offset=20&amp;redirs=1&amp;profile=default&amp;search=svend" title="Forrige 20 resultater" class="mw-nextlink">neste 20</a>) (<a href="/w/index.php?title=Spesial:S%C3%B8k&amp;limit=20&amp;offset=0&amp;redirs=1&amp;profile=default&amp;search=svend" title="Vis 20 resultater per side" class="mw-numlink">20</a> | <a href="/w/index.php?title=Spesial:S%C3%B8k&amp;limit=50&amp;offset=0&amp;redirs=1&amp;profile=default&amp;search=svend" title="Vis 50 resultater per side" class="mw-numlink">50</a> | <a href="/w/index.php?title=Spesial:S%C3%B8k&amp;limit=100&amp;offset=0&amp;redirs=1&amp;profile=default&amp;search=svend" title="Vis 100 resultater per side" class="mw-numlink">100</a> | <a href="/w/index.php?title=Spesial:S%C3%B8k&amp;limit=250&amp;offset=0&amp;redirs=1&amp;profile=default&amp;search=svend" title="Vis 250 resultater per side" class="mw-numlink">250</a> | <a href="/w/index.php?title=Spesial:S%C3%B8k&amp;limit=500&amp;offset=0&amp;redirs=1&amp;profile=default&amp;search=svend" title="Vis 500 resultater per side" class="mw-numlink">500</a>)</p>
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Hentet fra «<a href="http://no.wikipedia.org/wiki/Spesial:Søk">http://no.wikipedia.org/wiki/Spesial:Søk</a>»				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks catlinks-allhidden'></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigasjonsmeny</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personlig</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Spesial:Logg_inn&amp;returnto=Spesial%3AS%C3%B8k&amp;returntoquery=fulltext%3DSearch%26search%3Dsvend&amp;type=signup">Opprett konto</a></li><li id="pt-login"><a href="/w/index.php?title=Spesial:Logg_inn&amp;returnto=Spesial%3AS%C3%B8k&amp;returntoquery=fulltext%3DSearch%26search%3Dsvend" title="Du oppfordres til å logge inn, men det er ikke obligatorisk [o]" accesskey="o">Logg inn</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Navnerom</h3>
+	<ul>
+					<li  id="ca-nstab-special" class="selected"><span><a href="/w/index.php?fulltext=Search&amp;search=svend"  title="Dette er en spesialside og kan ikke redigeres [c]" accesskey="c">Spesialside</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Varianter</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs emptyPortlet">
+	<h3>Visninger</h3>
+	<ul>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Handlinger</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Søk</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" value="svend" title="Søk i Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Søk etter sider som innholder denne teksten" id="searchButton"><img src="//bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Søk" width="12" height="13" /></button>								<input type='hidden' name="title" value="Spesial:Søk"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/no/b/bc/Wiki.png);" href="/wiki/Portal:Forside"  title="Hovedside"></a></div>
+				<!-- /logo -->
+				
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigasjon</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/Portal:Forside" title="Gå til hovedsiden [z]" accesskey="z">Forside</a></li>
+			<li id="n-svaksynte"><a href="//no.wikipedia.org/w/index.php?title=Wikipedia:Svaksynte&amp;useskin=simple">Svaksynte</a></li>
+			<li id="n-UA"><a href="/wiki/Wikipedia:Utmerkede_artikler">Utmerkede artikler</a></li>
+			<li id="n-help"><a href="/wiki/Hjelp:Portal" title="Stedet for å få hjelp">Hjelp</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Spesial:Siste_endringer" title="Liste over siste endringer på wikien. [r]" accesskey="r">Siste endringer</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- prosjekt -->
+<div class="portal" role="navigation" id='p-prosjekt'>
+	<h3>Prosjekt</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Stilmanual"><a href="/wiki/Wikipedia:Stilmanual">Stilmanual</a></li>
+			<li id="n-portal"><a href="/wiki/Wikipedia:Portal" title="Om prosjektet, hva du kan gjøre, hvor du kan finne ting">Prosjektportal</a></li>
+			<li id="n-tinget"><a href="/wiki/Wikipedia:Tinget">Tinget</a></li>
+			<li id="n-torget"><a href="/wiki/Wikipedia:Torget">Torget</a></li>
+			<li id="n-randompage"><a href="/wiki/Spesial:Tilfeldig" title="Vis en tilfeldig side [x]" accesskey="x">Tilfeldig side</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /prosjekt -->
+
+<!-- Wikipedia -->
+<div class="portal" role="navigation" id='p-Wikipedia'>
+	<h3>Wikipedia</h3>
+	<div class="body">
+		<ul>
+			<li id="n-kontakt"><a href="/wiki/Wikipedia:Kontakt">Kontakt Wikipedia</a></li>
+			<li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_no.wikipedia.org&amp;uselang=nb" title="Støtt oss">Donasjoner</a></li>
+			<li id="n-wmno"><a href="//no.wikimedia.org/" title="Medlemsorganisasjon for wikipedianere">Wikimedia Norge</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Wikipedia -->
+
+<!-- other -->
+<div class="portal" role="navigation" id='p-other'>
+	<h3>Andre</h3>
+	<div class="body">
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<!-- /other -->
+
+<!-- query -->
+<div class="portal" role="navigation" id='p-query'>
+	<h3>Eksternt</h3>
+	<div class="body">
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<!-- /query -->
+
+<!-- store -->
+<div class="portal" role="navigation" id='p-store'>
+	<h3>Lager</h3>
+	<div class="body">
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<!-- /store -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Verktøy</h3>
+	<div class="body">
+		<ul>
+			<li id="t-specialpages"><a href="/wiki/Spesial:Spesialsider" title="Liste over alle spesialsider [q]" accesskey="q">Spesialsider</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Personvern</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:Om" title="Wikipedia:Om">Om Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Generelle_forbehold" title="Wikipedia:Generelle forbehold">Forbehold</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.special.search","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","mobile.desktop","ext.gadget.move-maintenance-messages","ext.gadget.ReferenceTooltips","ext.gadget.move-edit-links","ext.gadget.upload-wizard-commons","ext.gadget.international-language-links","ext.gadget.featured-language-links","ext.gadget.contributions-report","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&amp;action=raw&amp;ctype=text/javascript&amp;11445511"></script>
+<script src="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<!-- Served by mw1173 in 0.330 secs. -->
+	</body>
+</html>

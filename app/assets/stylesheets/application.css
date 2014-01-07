@@ -1,0 +1,62 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *
+ *= require fancybox
+ *= require_tree .
+ *= require jquery.ui.all
+ *= require_self
+*/
+
+a.add-reference {
+    background: url("/assets/icon-plus-2.gif") no-repeat;
+    margin-top: 5px;
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+
+tr.added-reference td:last-child a {
+    background: url("/assets/icon-plus.png") no-repeat;
+}
+
+a.remove-reference {
+    background: url("/assets/icon-minus.png") no-repeat;
+    margin: 3px 0 0 5px;
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+
+/* style for topic page */
+.topic-references li { padding: 0px !important; background: none !important; }
+.topic-references li img { height: 20px; }
+.container.welcome-text1 {
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 0px 2px 1px #dadada;
+    width:100%;
+    float:left;
+    padding-bottom:14px;
+    margin-top: 14px;
+}
+.container.welcome-text1.touch {
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+.container.welcome-text1.touch .admin-table { width: 685px; }
+
+/* styles for fancybox */
+#fancybox-outer { background: none; }
+#fancybox-content { border-radius: 6px; box-shadow: 0px 0px 2px 1px #dadada; }
+#fancybox-frame { border-radius: 6px; }
+
+#btn-moderation { font-size: 24px; vertical-align: baseline; padding: 7px; }
+.data-table td a { color: #005580 }

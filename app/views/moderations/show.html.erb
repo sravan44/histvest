@@ -1,0 +1,87 @@
+<div class="inner-page">
+  <div class="inner-head">
+  	<h1>
+      
+      <%= link_to I18n.t('topics.publish',:default=>'Publish') , "javacsript:;", :class => "btn btn-success", :id => "btn-publish" %>  
+      <%= link_to I18n.t('topics.reject',:default=>'Reject') , "javacsript:;", :class => "btn btn-danger", :id => "btn-reject", :data => { :message => I18n.t('topics.rejection_reason',:default=>'Please specify reason of rejection (optional)') } %>  
+      <% if params[:all].blank? %>
+        <%= link_to I18n.t('topics.all_pending',:default=>'All Pending Topics') ,moderation_path(:all=>1), :class => "btn" %>   
+      <% else %>
+        <%= link_to I18n.t('topics.moderation',:default=>'Under moderation') ,moderation_path, :class => "btn" %>   
+      <% end %>
+      <%= link_to I18n.t('topics.back_to_topics',:default=>'Back to Topics') ,moderation_path, :class => "btn" %>   
+    </h1>
+    <div class="head-right">
+      <%= form_for @topic_report, :url=>moderation_path, :html => {:method => :get} do |f| -%>
+         <%= hidden_field_tag :all, params[:all] %>
+         <% @topic_report.filters.each do |filter| -%>            
+            <%= f.datagrid_filter filter, :placeholder=> I18n.t("topics.#{filter.name}") , :class=>'search-in'%>            
+          <%end -%>   
+          <%= f.submit I18n.t("searchs.search"), :class=>"search-button" %>
+        <% end %>      
+    </div>
+    <div class="clear"></div>    
+    <%= form_tag request.url, :id=>"listing_form", :method => :put do %>    
+    <%= hidden_field_tag "commit", nil, :id=>"commit" %>
+    <%= hidden_field_tag "reason", nil, :id=>"reason" %>
+    <div class="listing-part" style="float: none; width: auto; margin-top: 10px;">
+    	<% unless @assets.empty? %>
+    	<table class="data-table" width="100%" cellspacing="0" cellpadding="0" border="0">
+    		<thead>
+    			<tr>
+    				<th class="even" width="20"><input type="checkbox" name="check_topics" id="check_all"></th>
+    				<th><%= I18n.t("topics.title") %></th>
+    				<th class="even"><%= I18n.t("topics.content") %></th>    				
+    				<th width="150"><%= I18n.t('topics.contributor',:default=>'Contributor') %></th>
+    				<th class="even" width="100"><%= I18n.t('topics.published_version', :default=>'Published Version')%></th>
+    				<th width="100"><%= I18n.t('topics.new_version', :default=>'New Version')%></th>    				
+    			</tr>
+    		</thead> 
+    		<tbody>
+    			<% @assets.each do |topic| %>
+    			<tr>
+    				<td><%= check_box_tag "ids[]", topic.id %></td>
+    				<td><%= topic.title %></td>
+    				<td><%= raw truncate strip_tags(topic.content), length: 50  %></td>
+    				<td><%= link_to topic.user.name, topic.user, :target=>'_blank' %></td>    		
+    				<td>
+    					<% unless topic.previous_version.nil? %>
+    						<%= link_to time_ago_in_words(topic.previous_version.updated_at), topic, :target => "_blank"  %>
+    					<% else %>-<% end %>
+    				</td>    				
+    				<td><%= link_to time_ago_in_words(topic.updated_at), topic_path(topic, :moderation=>true), :target => "_blank" %></td>
+    			</tr>
+    			<% end %>
+    		</tbody>   		
+    	</table>
+    	<div class="paging"><%= will_paginate(@assets) %></div>
+    	<% else %>
+    	<p class="alert alert-warning" style="width: auto;">
+    		<%= I18n.t('topics.no_results',:default=>'No topics to display') %>
+    	</p>
+    	<% end %>
+    </div>
+    <% end %>
+  </div>
+</div>
+
+<script type="text/javascript">
+$(function() {
+	$('#btn-publish').click(function(e) {
+		e.preventDefault();
+		if($('.data-table input:checked').size() > 0 && confirm(<%= raw I18n.t('confirm_message',:default=>"Are you sure?").to_json %>)) {
+            $('#commit').val('publish');
+			$('#listing_form')[0].submit();
+        }
+	});
+    $('#btn-reject').click(function(e) {
+        e.preventDefault();
+        if($('.data-table input:checked').size() > 0 && confirm(<%= raw I18n.t('confirm_message',:default=>"Are you sure?").to_json %>)) {
+            var reason = prompt($(this).data('message'));
+            $('#reason').val(reason);
+            $('#commit').val('reject');
+            $('#listing_form')[0].submit();
+        }
+    });
+});
+</script>

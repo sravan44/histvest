@@ -1,0 +1,406 @@
+HTTP/1.0 200 OK
+Date: Mon, 18 Feb 2013 18:48:29 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Content-Language: nb
+Vary: Accept-Encoding,Cookie
+Last-Modified: Wed, 28 Nov 2012 16:10:48 GMT
+Content-Length: 30216
+Content-Type: text/html; charset=UTF-8
+X-Cache: MISS from sq62.wikimedia.org
+X-Cache-Lookup: MISS from sq62.wikimedia.org:3128
+Age: 166469
+X-Cache: HIT from amssq33.esams.wikimedia.org
+X-Cache-Lookup: HIT from amssq33.esams.wikimedia.org:3128
+X-Cache: MISS from amssq37.esams.wikimedia.org
+X-Cache-Lookup: MISS from amssq37.esams.wikimedia.org:80
+Connection: close
+
+<!DOCTYPE html>
+<html lang="nb" dir="ltr" class="client-nojs">
+<head>
+<title>Svend Foyn - Wikipedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Rediger" href="/w/index.php?title=Svend_Foyn&amp;action=edit" />
+<link rel="edit" title="Rediger" href="/w/index.php?title=Svend_Foyn&amp;action=edit" />
+<link rel="apple-touch-icon" href="//no.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (nb)" />
+<link rel="EditURI" type="application/rsd+xml" href="//no.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom-mating" href="/w/index.php?title=Spesial:Siste_endringer&amp;feed=atom" />
+<link rel="stylesheet" href="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=ext.gadget.ReferenceTooltips%2Ccontributions-report%2Cfeatured-language-links%2Cinternational-language-links%2Cmove-edit-links%2Cmove-maintenance-messages%2Cupload-wizard-commons%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: nowiki:resourceloader:filter:minify-css:7:1f1b87b6a5d3f7c65b7eddd42e060025 */</style>
+
+<script src="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Svend_Foyn","wgTitle":"Svend Foyn","wgCurRevisionId":11438652,"wgArticleId":57044,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Norske skipsredere","Norske forretningsfolk","Norske hvalfangere","St. Olavs Orden","Personer fra Tønsberg kommune","Fødsler i 1809","Dødsfall i 1894"],"wgBreakFrames":false,"wgPageContentLanguage":"nb","wgSeparatorTransformTable":[",	."," 	,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"],"wgMonthNamesShort":["","jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"],"wgRelevantPageName":"Svend_Foyn","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wikilove-recipient":"","wikilove-anon":0,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikilove-enabled":1,"variant":"nb","language":"nb","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"gadget-move-maintenance-messages":1,"gadget-ReferenceTooltips":1,"gadget-move-edit-links":1,"gadget-upload-wizard-commons":1,"gadget-international-language-links":1,"gadget-featured-language-links":1,"gadget-contributions-report":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\",
+"patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: nowiki:resourceloader:filter:minify-js:7:2b084f0a02f8ceeee3c884e4571a802e */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralNotice.bannerController"]);
+}</script>
+<script src="//bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="//meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Svend_Foyn skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="nb"><span dir="auto">Svend Foyn</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">Fra Wikipedia, den frie encyklopedi</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Gå til:					<a href="#mw-head">navigasjon</a>, 					<a href="#p-search">søk</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="nb" dir="ltr" class="mw-content-ltr"><div class="thumb tright">
+<div class="thumbinner" style="width:204px;"><a href="/wiki/Fil:Svend_Foyn.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/d/d5/Svend_Foyn.jpg" width="202" height="279" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fil:Svend_Foyn.jpg" class="internal" title="Forstørr"><img src="//bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Den norske <a href="/wiki/Skipsreder" title="Skipsreder">skipsrederen</a> og <a href="/wiki/Hvalfangst" title="Hvalfangst">hvalfangstpioneren</a> Svend Foyn (1809–1894)</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/Fil:Svend_Foyns_begravelse.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Svend_Foyns_begravelse.jpg/220px-Svend_Foyns_begravelse.jpg" width="220" height="134" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Svend_Foyns_begravelse.jpg/330px-Svend_Foyns_begravelse.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Svend_Foyns_begravelse.jpg/440px-Svend_Foyns_begravelse.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fil:Svend_Foyns_begravelse.jpg" class="internal" title="Forstørr"><img src="//bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Svend Foyns ishavsflåte tar farvel på begravelsesdagen 8. desember 1894. Fra venstre: <a href="/wiki/DS_%C2%ABMorgenen%C2%BB" title="DS «Morgenen»">«Morgenen»</a>, «Freya», «Haabet», «Immanuel», «Arctic», <a href="/wiki/%C2%ABSpes_%26_Fides%C2%BB" title="«Spes &amp; Fides»" class="mw-redirect">«Spes &amp; Fides»</a> og «Providentia».</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/Fil:SvendFoynsBedehusT%C3%B8nsberg.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/SvendFoynsBedehusT%C3%B8nsberg.jpg/220px-SvendFoynsBedehusT%C3%B8nsberg.jpg" width="220" height="147" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/SvendFoynsBedehusT%C3%B8nsberg.jpg/330px-SvendFoynsBedehusT%C3%B8nsberg.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/SvendFoynsBedehusT%C3%B8nsberg.jpg/440px-SvendFoynsBedehusT%C3%B8nsberg.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/Fil:SvendFoynsBedehusT%C3%B8nsberg.jpg" class="internal" title="Forstørr"><img src="//bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Svend Foyns bedehus i krysset Øvre langgate og St. Olavs gate.</div>
+</div>
+</div>
+<p><b>Svend Foyn</b> (utt. «føyn»<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>; født <a href="/wiki/9._juli" title="9. juli">9. juli</a> <a href="/wiki/1809" title="1809">1809</a> i <a href="/wiki/Foyneg%C3%A5rden" title="Foynegården">Foynegården</a> i <a href="/wiki/T%C3%B8nsberg" title="Tønsberg">Tønsberg</a>, død <a href="/wiki/30._november" title="30. november">30. november</a> <a href="/wiki/1894" title="1894">1894</a> på <a href="/wiki/N%C3%B8tter%C3%B8y" title="Nøtterøy">Nøtterøy</a>) var en norsk <a href="/wiki/Skipsreder" title="Skipsreder">skipsreder</a> og grunnlegger av den moderne <a href="/wiki/Hvalfangst" title="Hvalfangst">hvalfangst</a>.</p>
+<p>Foyn reiste til sjøs i ung alder og ble skipper allerede da han var 24 år. Han studerte språk i Frankrike og England, seilte på Spania og Frankrike og drev samtidig med eksport og import. Han gjorde et banebrytende arbeid innen <a href="/wiki/Selfangst" title="Selfangst">selfangst</a> og skapte en betydningsfull ny næringsvei. Han deltok selv i en selfangstekspedisjon i 1844 og tegnet en ishavsskute som ble mønster for bygging av slike.</p>
+<p>I 1860-årene la <strong class="selflink">Svend Foyn</strong> grunnlaget for moderne industriell hvalfangst. Fra 1864 drev han eksperimentell hvalfangst i Finnmark, og han kombinerte tre faktorer: Harpun og granat ble bygd sammen til en moderne granatharpun og plassert i en ny type hvalbåt med <a href="/wiki/Dampmaskin" title="Dampmaskin">dampmaskin</a>. Granatharpunen ble utviklet med bistand fra <a href="/wiki/Morten_Thrane_Esmark" title="Morten Thrane Esmark">Morten Thrane Esmark</a>.</p>
+<p>Verdens første dampdrevne hvalfangstskute, <a href="/wiki/DS_%C2%ABSpes_%26_Fides%C2%BB" title="DS «Spes &amp; Fides»">«Spes &amp; Fides»</a>, ble bygd for Svend Foyns regning i 1864 ved <a href="/wiki/Nylands_mekaniske_verksted" title="Nylands mekaniske verksted">Nylands mekaniske verksted</a> i <a href="/wiki/Oslo" title="Oslo">Christiania</a>. Fartøyet var 94 fot langt, med en 20 hestekrefters maskin; maksimal fart var syv knop. Fartøyet var utstyrt med dampmaskin og skonnertrigg. I <a href="/wiki/1863" title="1863">1863</a> fikk han laget verdens første <a href="/wiki/Harpun" title="Harpun">granatharpun</a> med eksploderende hode. Fangsvåpenet var basert på <a href="/wiki/Erik_Eriksen_(skipper)" title="Erik Eriksen (skipper)">Erik Eriksens</a> og <a href="/wiki/Jacob_Nicolai_Wals%C3%B8e" title="Jacob Nicolai Walsøe">Jacob Nicolai Walsøes</a> idé og design. I <a href="/wiki/1864" title="1864">1864</a> ble kanonen montert på verdens første dampdrevne hvalfangstskute.</p>
+<p>Fra 1873 var hvalfangsten i Finnmark lønnsom næring. 14.januar 1873 fikk Foyn patent på sitt fangstsystem, og han fikk fangstmonopol på hval fra 1873 til 1882. I 1877 fikk Foyn konkurranse av Jarfjordselskapet, og i 1880 av Hvalfangserselskabet Vestfold. I 1881 inngikk Foyn kontrakt med rederiet O.B.Sørensen i <a href="/wiki/Arendal" title="Arendal">Arendal</a> om bruk av Foyns fangstteknikk. I 1881 var et en hel flåte fra Vestfold som drev hvalfangst i Finnmark. 169 mann fra Vestfold deltok i fangsten, og de fanget 285 hval. <sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup></p>
+<p>Svend Foyn revolusjonerte hvalfangsten, på godt og vondt. Ved sin død etterlot han seg en formue på 4 millioner kroner. Industrien han utviklet skulle etter mange år nesten utrydde de største havpattedyrene, blåhvalene.</p>
+<p>Foyn bidro med finansiell støtte til misjonsvirksomheten og til oppførelse av <a href="/wiki/Svend_Foyns_arbeiderboliger" title="Svend Foyns arbeiderboliger">arbeiderboliger</a>, bedehus, skoler og barnehjem i Tønsberg. Han ble utnevnt til ridder av <a href="/wiki/St._Olavs_Orden" title="St. Olavs Orden">St. Olavs Orden</a> i 1853, forfremmet til kommandør i 1870 og mottok storkorset i 1893.</p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Svend_Foyn&amp;action=edit&amp;section=1" title="Rediger avsnitt: Kilder">rediger</a>]</span> <span class="mw-headline" id="Kilder">Kilder</span></h2>
+<ol class="references">
+<li id="cite_note-1"><b><a href="#cite_ref-1">^</a></b> <span class="reference-text">Bjarne Berulfsen: <i>Norsk uttaleordbok</i>, Aschehoug 1969, s. 107.</span></li>
+<li id="cite_note-2"><b><a href="#cite_ref-2">^</a></b> <span class="reference-text">Arne Odd Johnsen: Finnmarksfangsten. I Den moderne hvalfangsts historie. Opprinnelse og utvikling. Bind I. Oslo 1959.</span></li>
+</ol>
+<ul>
+<li><i>Den Kongelige norske Sankt Olavs orden 1847-1947</i>, utgitt av ordenskanselliet ved O. Delphin Amundsen, Grøndahl &amp; Søns Forlag, Oslo, 1947</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Svend_Foyn&amp;action=edit&amp;section=2" title="Rediger avsnitt: Litteratur">rediger</a>]</span> <span class="mw-headline" id="Litteratur">Litteratur</span></h2>
+<ul>
+<li><a href="/wiki/Alf_R._Jacobsen" title="Alf R. Jacobsen">Alf R. Jacobsen</a> (2008) <i>Svend Foyn. Fangstpioner og nasjonsbygger</i>, <a href="/wiki/Aschehoug" title="Aschehoug">Aschehoug</a>. <a href="/wiki/Spesial:Bokkilder/9788203232169" class="internal mw-magiclink-isbn">ISBN 978-82-03-232169</a></li>
+<li><a href="/wiki/Jan_%C3%98stby" title="Jan Østby">Jan Østby</a> (1953) <i>Hvalkongen. Eventyret om Svend Foyn</i>, Gyldendal.</li>
+<li><a href="/wiki/Arne_Odd_Johnsen" title="Arne Odd Johnsen">Arne Odd Johnsen</a> (1943) <i>Svend Foyn og hans dagbok</i>, Fabritius.</li>
+</ul>
+<h2><span class="editsection">[<a href="/w/index.php?title=Svend_Foyn&amp;action=edit&amp;section=3" title="Rediger avsnitt: Eksterne lenker">rediger</a>]</span> <span class="mw-headline" id="Eksterne_lenker">Eksterne lenker</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.hvalfangstmuseet.no/">Hvalfangstmuseet i Sandefjord</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.snl.no/.nbl_biografi/Svend_Foyn/utdypning">Norsk Biografisk Leksikon</a></li>
+<li>Norsk Polarhistorie <a rel="nofollow" class="external text" href="http://www.polarhistorie.no/personer/1159343938.61">biografiside om Svend Foyn</a></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 58/1000000
+Preprocessor generated node count: 182/1500000
+Post-expand include size: 0/2048000 bytes
+Template argument size: 0/2048000 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key nowiki:pcache:idhash:57044-0!*!0!!*!4!* and timestamp 20130123101211 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Hentet fra «<a href="http://no.wikipedia.org/w/index.php?title=Svend_Foyn&amp;oldid=11438652">http://no.wikipedia.org/w/index.php?title=Svend_Foyn&amp;oldid=11438652</a>»				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Wikipedia:Kategorier" title="Wikipedia:Kategorier">Kategorier</a>: <ul><li><a href="/wiki/Kategori:Norske_skipsredere" title="Kategori:Norske skipsredere">Norske skipsredere</a></li><li><a href="/wiki/Kategori:Norske_forretningsfolk" title="Kategori:Norske forretningsfolk">Norske forretningsfolk</a></li><li><a href="/wiki/Kategori:Norske_hvalfangere" title="Kategori:Norske hvalfangere">Norske hvalfangere</a></li><li><a href="/wiki/Kategori:St._Olavs_Orden" title="Kategori:St. Olavs Orden">St. Olavs Orden</a></li><li><a href="/wiki/Kategori:Personer_fra_T%C3%B8nsberg_kommune" title="Kategori:Personer fra Tønsberg kommune">Personer fra Tønsberg kommune</a></li><li><a href="/wiki/Kategori:F%C3%B8dsler_i_1809" title="Kategori:Fødsler i 1809">Fødsler i 1809</a></li><li><a href="/wiki/Kategori:D%C3%B8dsfall_i_1894" title="Kategori:Dødsfall i 1894">Dødsfall i 1894</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigasjonsmeny</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personlig</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Spesial:Logg_inn&amp;returnto=Svend+Foyn&amp;type=signup">Opprett konto</a></li><li id="pt-login"><a href="/w/index.php?title=Spesial:Logg_inn&amp;returnto=Svend+Foyn" title="Du oppfordres til å logge inn, men det er ikke obligatorisk [o]" accesskey="o">Logg inn</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Navnerom</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Svend_Foyn"  title="Vis innholdssiden [c]" accesskey="c">Artikkel</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/w/index.php?title=Diskusjon:Svend_Foyn&amp;action=edit&amp;redlink=1"  title="Diskusjon om innholdssiden [t]" accesskey="t">Diskusjon</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Varianter</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Visninger</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Svend_Foyn" >Les</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Svend_Foyn&amp;action=edit"  title="Du kan redigere denne siden. Vennligst bruk forhåndsvisningsknappen før du lagrer. [e]" accesskey="e">Rediger</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Svend_Foyn&amp;action=history"  title="Tidligere revisjoner av denne siden [h]" accesskey="h">Vis historikk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Handlinger</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Søk</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Søk i Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Søk etter sider som innholder denne teksten" id="searchButton"><img src="//bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Søk" width="12" height="13" /></button>								<input type='hidden' name="title" value="Spesial:Søk"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/no/b/bc/Wiki.png);" href="/wiki/Portal:Forside"  title="Hovedside"></a></div>
+				<!-- /logo -->
+				
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigasjon</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/Portal:Forside" title="Gå til hovedsiden [z]" accesskey="z">Forside</a></li>
+			<li id="n-svaksynte"><a href="//no.wikipedia.org/w/index.php?title=Wikipedia:Svaksynte&amp;useskin=simple">Svaksynte</a></li>
+			<li id="n-UA"><a href="/wiki/Wikipedia:Utmerkede_artikler">Utmerkede artikler</a></li>
+			<li id="n-help"><a href="/wiki/Hjelp:Portal" title="Stedet for å få hjelp">Hjelp</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Spesial:Siste_endringer" title="Liste over siste endringer på wikien. [r]" accesskey="r">Siste endringer</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- prosjekt -->
+<div class="portal" role="navigation" id='p-prosjekt'>
+	<h3>Prosjekt</h3>
+	<div class="body">
+		<ul>
+			<li id="n-Stilmanual"><a href="/wiki/Wikipedia:Stilmanual">Stilmanual</a></li>
+			<li id="n-portal"><a href="/wiki/Wikipedia:Portal" title="Om prosjektet, hva du kan gjøre, hvor du kan finne ting">Prosjektportal</a></li>
+			<li id="n-tinget"><a href="/wiki/Wikipedia:Tinget">Tinget</a></li>
+			<li id="n-torget"><a href="/wiki/Wikipedia:Torget">Torget</a></li>
+			<li id="n-randompage"><a href="/wiki/Spesial:Tilfeldig" title="Vis en tilfeldig side [x]" accesskey="x">Tilfeldig side</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /prosjekt -->
+
+<!-- Wikipedia -->
+<div class="portal" role="navigation" id='p-Wikipedia'>
+	<h3>Wikipedia</h3>
+	<div class="body">
+		<ul>
+			<li id="n-kontakt"><a href="/wiki/Wikipedia:Kontakt">Kontakt Wikipedia</a></li>
+			<li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_no.wikipedia.org&amp;uselang=nb" title="Støtt oss">Donasjoner</a></li>
+			<li id="n-wmno"><a href="//no.wikimedia.org/" title="Medlemsorganisasjon for wikipedianere">Wikimedia Norge</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Wikipedia -->
+
+<!-- other -->
+<div class="portal" role="navigation" id='p-other'>
+	<h3>Andre</h3>
+	<div class="body">
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<!-- /other -->
+
+<!-- query -->
+<div class="portal" role="navigation" id='p-query'>
+	<h3>Eksternt</h3>
+	<div class="body">
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<!-- /query -->
+
+<!-- store -->
+<div class="portal" role="navigation" id='p-store'>
+	<h3>Lager</h3>
+	<div class="body">
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<!-- /store -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Utskrift</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="/w/index.php?title=Spesial:Bok&amp;bookcmd=book_creator&amp;referer=Svend+Foyn" title="Lag ei bok eller en artikkelsamling" rel="nofollow">Opprett en bok</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Spesial:Bok&amp;bookcmd=render_article&amp;arttitle=Svend+Foyn&amp;oldid=11438652&amp;writer=rl" title="Last ned denne wikisida i PDF-format" rel="nofollow">Last ned som PDF</a></li><li id="t-print"><a href="/w/index.php?title=Svend_Foyn&amp;printable=yes" title="Utskriftsvennlig versjon av denne siden [p]" accesskey="p">Utskriftsversjon</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Verktøy</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Spesial:Lenker_hit/Svend_Foyn" title="Liste over alle wikisider som lenker hit [j]" accesskey="j">Lenker hit</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/Spesial:Relaterte_endringer/Svend_Foyn" title="Siste endringer i sider som blir lenket fra denne siden [k]" accesskey="k">Relaterte endringer</a></li>
+			<li id="t-specialpages"><a href="/wiki/Spesial:Spesialsider" title="Liste over alle spesialsider [q]" accesskey="q">Spesialsider</a></li>
+			<li id="t-permalink"><a href="/w/index.php?title=Svend_Foyn&amp;oldid=11438652" title="Permanent lenke til denne revisjonen av siden">Permanent lenke</a></li>
+			<li id="t-info"><a href="/w/index.php?title=Svend_Foyn&amp;action=info">Sideinformasjon</a></li>
+<li id="t-cite"><a href="/w/index.php?title=Spesial:Siteringshjelp&amp;page=Svend_Foyn&amp;id=11438652" title="Informasjon om hvordan denne siden kan siteres">Siter artikkelen</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>På andre språk</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-de"><a href="//de.wikipedia.org/wiki/Svend_Foyn" title="Svend Foyn" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-en"><a href="//en.wikipedia.org/wiki/Svend_Foyn" title="Svend Foyn" lang="en" hreflang="en">English</a></li>
+			<li class="interwiki-es"><a href="//es.wikipedia.org/wiki/Svend_Foyn" title="Svend Foyn" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="//eo.wikipedia.org/wiki/Svend_Foyn" title="Svend Foyn" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fr"><a href="//fr.wikipedia.org/wiki/Svend_Foyn" title="Svend Foyn" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-nn"><a href="//nn.wikipedia.org/wiki/Svend_Foyn" title="Svend Foyn" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pl"><a href="//pl.wikipedia.org/wiki/Svend_Foyn" title="Svend Foyn" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-ru"><a href="//ru.wikipedia.org/wiki/%D0%A4%D0%BE%D0%B9%D0%BD,_%D0%A1%D0%B2%D0%B5%D0%BD" title="Фойн, Свен" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sv"><a href="//sv.wikipedia.org/wiki/Svend_Foyn" title="Svend Foyn" lang="sv" hreflang="sv">Svenska</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Denne siden ble sist endret 28. nov 2012 kl. 17:10.</li>
+											<li id="footer-info-copyright">Innholdet er tilgjengelig under <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.no">Creative Commons-lisensen Navngivelse-Del på samme vilkår</a>, men ytterligere betingelser kan gjelde. Se <a href="//wikimediafoundation.org/wiki/Terms_of_use">bruksvilkårene</a> for detaljer.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Personvern</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:Om" title="Wikipedia:Om">Om Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Generelle_forbehold" title="Wikipedia:Generelle forbehold">Forbehold</a></li>
+											<li id="footer-places-mobileview"><a href="http://no.m.wikipedia.org/wiki/Svend_Foyn" class="noprint stopMobileRedirectToggle">Mobilvisning</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.move-maintenance-messages","ext.gadget.ReferenceTooltips","ext.gadget.move-edit-links","ext.gadget.upload-wizard-commons","ext.gadget.international-language-links","ext.gadget.featured-language-links","ext.gadget.contributions-report","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&amp;action=raw&amp;ctype=text/javascript&amp;11445511"></script>
+<script src="//bits.wikimedia.org/no.wikipedia.org/load.php?debug=false&amp;lang=nb&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<!-- Served by mw1056 in 0.157 secs. -->
+	</body>
+</html>

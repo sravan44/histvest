@@ -1,0 +1,64 @@
+<% provide(:title, @user.name) %>
+<style>
+  .data-table th, .data-table td {
+    padding: 0px 4px 6px 15px;
+    }
+  .data-table td {
+    border-bottom: 1px solid #fff;
+  }
+  .inner-head h1 {
+    width: auto;
+    line-height: 25px;
+  }
+</style>
+
+<div class="inner-page">
+  <div class="inner-head" style="height:30px;">
+    <h1><%= @user.name %></h1>
+  </div>
+  <div class="listing-part">    
+    <table class="data-table" width="100%" cellspacing="0" cellpadding="0" border="0" id="users_index">
+      <thead>  
+        <tr> 
+          <th style="width:120px;"></th>
+          <th style="width:1px;"></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody> 
+       <tr style="height:24px;"> 
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr> 
+          <td> <%= I18n.t("users.name") %> </td>
+          <td> : </td>
+          <td> <%= @user.name %> </td>
+        </tr>
+
+        <tr> 
+          <td> <%= I18n.t("users.email") %> </td>
+          <td> : </td>
+          <td> <%= @user.email %> </td>
+        </tr>
+
+        <tr> 
+          <td> <%= I18n.t("users.role") %> </td>
+          <td> : </td>
+          <td> <%= @user.role_text %> </td>
+        </tr>
+
+        <tr> 
+          <td> <%= I18n.t("users.status") %> </td>
+          <td> : </td>
+          <td> 
+            <%= image_tag(@user.status ? "checked.png" : "checkbox.png" ) %>
+          </td>
+        </tr>
+       </tbody>      
+     </table>
+  </div>
+</div>
+
+

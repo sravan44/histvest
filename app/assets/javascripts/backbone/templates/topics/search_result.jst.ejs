@@ -1,0 +1,16 @@
+<tr class="<%= class_name %>">
+	<td align="center" valign="top"><%= icon %></td>
+	<td align="left" valign="top"><a target="_new" href="<%= reference.get('url') %>"><%= reference.get('title') %></a></td>
+	<td align="left" valign="top"><%= reference.get('creator') %></td>
+	<td align="left" valign="top"><%= reference.get('year') %></td>
+	<td align="left" valign="top"><%= reference.get('snippet') %></td>
+	<td align="left" valign="top">
+    <a href="javascript:;" class="add-reference" id="reference-search-<%= reference.cid %>"></a>
+  </td>
+</tr>
+<tr class="evn">
+  <td colspan="6" align="right">
+    <input type='button' value='Load more' class="btn btn-success loadMoreResults" style="float:right;display:block">
+  </td>
+</tr>
+

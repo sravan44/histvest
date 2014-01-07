@@ -1,0 +1,51 @@
+<%
+  if signed_in?
+    menu_home_url = {:controller=>:static_pages,:action=>:admin}
+  else
+    menu_home_url = root_url
+  end
+  menus = []      
+  menus << { :url=>menu_home_url, :text=>I18n.t("top_menu.home"), :icon=>"home" } 
+  menus << { :url=>{:controller=>:users,:action=>:index}, :text=>I18n.t("top_menu.users"), :icon=>"user" } if can? :manage, User
+  menus << { :url=>{:controller=>:topics,:action=>:index}, :text=>I18n.t("top_menu.topics"), :icon=>"theme" } if can? :read, Topic 
+  menus << { :url=>{:controller=>:articles,:action=>:index}, :text=>I18n.t("top_menu.articles"), :icon=>"news" } if can? :read, Article
+  menus << { :url=>{:controller=>:topics,:action=>:search_stats}, :text=>I18n.t("top_menu.statistics"), :icon=>"setting" } if can? :manage, :all
+%>
+<div id="top-wrapper">
+  <div class="wrapper">    
+    <%= render 'shared/top_header'%>
+    <div class="top-comp">
+      <div id="header" class="header-new">
+        <div class="header-left"> <%= link_to image_tag("logo-new.jpg") , root_path %> </div>
+        <div class="header-right"><span><%= I18n.t('header.header', :default => 'Historiske Vestfold') %></span></div>
+      </div>        
+      <div class="nav">
+        <% if signed_in? %>
+        <ul>      
+          <% menus.each_with_index do |menu,index| %>          
+          <%
+            menu_class = ""
+            if index == 0
+              menu_class = "frst"
+            elsif index == (menus.size - 1)
+              menu_class = "last"
+            end
+          %>
+          <li class="<%= menu_class %>">
+            <a href="<%= url_for(menu[:url]) %>">
+              <span class="<%= menu[:icon] %>">&nbsp;</span>
+              <em><%= menu[:text] %></em>
+            </a>
+          </li> 
+          <% end %>
+        </ul>
+        <% end %>
+      </div>
+      <script type="text/javascript">         
+      var here = '<%= request.fullpath %>';   
+      var active_link = $('div.nav a[href~="'+here+'"]').first();
+      active_link.parent().addClass('active');      
+      </script>      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="infowindow">	
+	<% topics.each_with_index do |topic, index| %>
+	<div class="marker-topic <%= index==0 ? 'first' : '' %>" data-url="<%= topic_path(topic) %>">
+		<% if topic.has_avatar? %>
+			<%= image_tag(topic.avatar_path(:infowindow), class: "infowindow-image") %>
+		<% end %>
+		<h5 class="infowindow-header"><%= topic.title %></h5>
+		<div class="infowindow-content">			
+			<%= truncate_html(strip_tags(topic.content), length: 100, omission: '...') %>			
+			<%= link_to I18n.t("infowindow.read_more"), topic_path(topic), class: "infowindow-readmore btn btn-danger btn-mini" %>			
+		</div>		
+		<div class="clear"></div>
+	</div>
+	<% end %>
+</div>

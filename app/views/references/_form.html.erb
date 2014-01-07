@@ -1,0 +1,40 @@
+<%= form_for(@reference) do |f| %>
+  <% if @reference.errors.any? %>
+    <div id="error_explanation">      
+      <h2><%= @reference.errors.count%> <%= I18n.t("error_head.header") %></h2>
+      <ul>
+      <% @reference.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title, I18n.t("references.title") %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :creator, I18n.t("references.creator") %><br />
+    <%= f.text_field :creator %>
+  </div>
+  <div class="field">
+    <%= f.label :year, I18n.t("references.year") %><br />
+    <%= f.number_field :year %>
+  </div>
+  <div class="field">
+    <%= f.label :lang, I18n.t("references.lang") %><br />
+    <%= f.text_field :lang %>
+  </div>
+  <div class="field">
+    <%= f.label :snippet, I18n.t("references.snippet") %><br />
+    <%= f.text_field :snippet %>
+  </div>
+  <div class="field">
+    <%= f.label :url,I18n.t("references.url") %><br />
+    <%= f.text_field :url %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

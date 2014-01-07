@@ -1,0 +1,22 @@
+<div class="top-profile">
+  <% if signed_in? %>
+    <div class="pro-left">
+      <span class="pro-icons">&nbsp;</span><em class="welcome"><%= I18n.t("top_header.welcome")%>, <%= current_user.name %></em>
+    </div>
+    <div class="pro-right">
+      <ul>
+        <li><span class="pro-icons admin-2">&nbsp;</span><%= link_to I18n.t("top_header.admin_front"), '/static_pages/admin' %></li>
+        <li><span class="pro-icons profile">&nbsp;</span><%= link_to I18n.t("top_header.profile"), user_path(current_user) %></li>
+        <li><span class="pro-icons logout">&nbsp;</span><%= link_to I18n.t("top_header.sign_out"), signout_path, method: "delete" %></li>
+      </ul>
+    </div>
+  <% else %>
+    <div class="pro-left">
+    </div>
+    <div class="pro-right">
+      <ul>
+        <li><span class="pro-icons logout">&nbsp;</span><%= link_to I18n.t("session.sign_in"), signin_path %></li>
+      </ul>
+    </div>
+  <% end %>
+</div>

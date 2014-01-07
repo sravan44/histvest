@@ -1,0 +1,98 @@
+<style>
+  .data-table th, .data-table td {
+    padding: 0px 4px 6px 15px;
+    }
+  .data-table td {
+    border-bottom: 1px solid #fff;
+  }
+  .inner-head h1 {
+    width: auto;
+    line-height: 25px;
+  }
+</style>
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= @user.errors.count%> <%= I18n.t("error_head.header") %></h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<div class="inner-page">
+  <div class="inner-head" style="height:30px;">
+    <h1>
+      <%= params[:action]=='edit' ? I18n.t('users.edit_user') : I18n.t('users.new_user') %></span>
+    </h1>
+  </div>
+
+  <div class="listing-part">    
+    <table class="data-table" width="100%" cellspacing="0" cellpadding="0" border="0" id="users_index">
+      <thead>  
+        <tr> 
+          <th style="width:120px;"></th>
+          <th style="width:1px;"></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody> 
+       <tr style="height:24px;"> 
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr> 
+          <td> <%= f.label :name, I18n.t("users.name") %> </td>
+          <td> : </td>
+          <td> <%= f.text_field :name %> </td>
+        </tr>
+
+        <tr> 
+          <td> <%= f.label :email, I18n.t("users.email") %> </td>
+          <td> : </td>
+          <td> <%= f.text_field :email %> </td>
+        </tr>
+
+        <tr> 
+          <td> <%= f.label :role, I18n.t("users.role") %> </td>
+          <td> : </td>
+          <td> <%= f.select :role, User.role.options %></td>
+        </tr>
+
+        <tr> 
+          <td> <%= f.label :password, I18n.t("users.password") %> </td>
+          <td> : </td>
+          <td> <%= f.password_field :password %> </td>
+        </tr>
+
+        <tr> 
+          <td> <%= f.label :password_confirmation, I18n.t("users.password_confirm") %> </td>
+          <td> : </td>
+          <td> <%= f.password_field :password_confirmation %> </td>
+        </tr>
+
+        <tr> 
+          <td>  </td>
+          <td> : </td>
+          <td> 
+            <%= f.check_box :status %> <%= f.label :status, I18n.t("users.status",:default=>'Active') %>
+          </td>
+        </tr>
+
+        <tr> 
+          <td>  </td>
+          <td>  </td>
+          <td> 
+            <%= f.submit I18n.t("users.create_account"), class: "btn btn-success" %> <br /><br />
+            <% if params[:action] == 'edit'%> <%= link_to I18n.t("crud_links.show"), @user, :style=>'color:#5fbe5f' %> | <% end %>
+            <%= link_to I18n.t("crud_links.back"), users_path, :style=>'color:#5fbe5f' %>
+          </td>
+        </tr>
+       </tbody>      
+     </table>
+    <% end %> 
+  </div>
+</div>

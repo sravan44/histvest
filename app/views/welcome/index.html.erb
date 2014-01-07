@@ -1,0 +1,117 @@
+<style>
+	ul img { width: 30px; height: 30px; padding-right: 10px; font-size:10px; margin:5px 0 5px 5px;}  
+	.ui-autocomplete > li { height: 50px;}
+	.ui-autocomplete-loading {
+		background: white url('/assets/loading.gif') right center no-repeat;
+	 }
+	.ui-menu-item a {
+		border: solid 1px #CCC;
+		font-family: 'LucidaGrandeRegular', Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		color: #589309;
+		border-radius: 5px;
+		box-shadow: inset 0 0 7px #DFDDDD;
+		padding: 20px 15px;
+		width: 98%;
+	}
+	.ui-menu .ui-menu-item a {
+		text-decoration: none;
+		display: block;
+		padding: 2px .4em;
+		line-height: 3;
+		min-height: 0;
+		font-weight: normal;
+		}
+
+	.ui-menu .ui-menu-item {
+		margin-left: 1px;
+		padding: 0;
+		width: 100%;
+		}
+
+	.ui-menu .ui-menu-item a.ui-state-focus, .ui-menu .ui-menu-item a.ui-state-active {
+		font-weight: normal;
+		margin: -1px;
+		color: #fff;
+		background: #589309;
+		box-shadow: none;
+		}
+
+</style>
+<script>
+	var auto;
+	$(document).ready(function () {
+		auto = $("#textfield").autocomplete({  
+			source: "/search.json",
+			minLength: 3,      
+			select: function(event,ui) {
+				window.location.href = "/search?term="+$('#textfield').val();
+			}
+		});    
+		auto.data("uiAutocomplete")._renderItem = function (ul, item) {  
+			return $("<li />")
+				.data("item.autocomplete", item)
+				.append("<a href='/topics/"+item.id+"'><img src='" + item.avatar_path + "' /><span style='font-size:18px;line-height:7px;'>" + item.value + "</span></a>")       
+				.appendTo(ul);
+		};
+
+		$("#textfield").keypress(function(){
+				$("#textfield").addClass('ui-autocomplete-loading');
+		})
+	});
+</script>
+<div class="green-search">
+	<div class="search-title"><%= I18n.t("welcome.index.what_do_you_know_about", :default => "Hva vil du vite mer om? ") %></div>
+	<div class="search-box">
+		<input name="textfield" type="text" class="textfield-green-search" id="textfield" autocomplete="off" placeholder="<%= I18n.t('searchs.search') %>">     
+	</div>
+ </div>
+
+<div class="welcome-txt-main">
+	<div class="welcome-txt welcome-txt-lft">
+		<h3><span><%= I18n.t("welcome.index.header", :default => "Velkommen til Historiske Vestfold!") %></span> </h3>
+		<p><%= I18n.t("welcome.index.text", :default => "Welcome text paragraph1") %></p>
+		<p><%= I18n.t("welcome.index.text2", :default => "Welcome text paragraph2") %></p>
+		<p><%= raw I18n.t("welcome.index.text3", :default => "Welcome text paragraph3") %></p>
+	</div>
+	<div class="welcome-txt welcome-txt-rght" id="welcome_txt_rght">
+		<%= render :partial => "take_another_topic" %>      
+	</div>
+ </div>
+
+<% if @front_page_article != nil %>
+<div class="map">
+	<h2><%= @front_page_article.title %></h2>
+	<%= raw @front_page_article.content %>
+</div>
+<% end %>
+
+
+<form accept-charset="UTF-8" action="/topics/" class="edit_topic" id="lat_topic_frm" method="post">  
+	<input id="lat_hidden" name="lat" type="hidden" value="">
+	<input id="lng_hidden" name="lng" type="hidden" value="">
+</form>
+
+<div class="map" style="width: 694px; height: 426px;" id="map_div">    
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="//google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.0.14/src/markerclusterer_packed.js" type="text/javascript"></script>
+
+
+
+	<script>
+	$(window).load(function(){
+		Gmaps4HistVest.map = new Gmaps4HistVest();
+		Gmaps4HistVest.map.initialize()
+		Gmaps4HistVest.map.markers = <%= @locations.html_safe %>
+		Gmaps4HistVest.map.create_markers('mouseover');
+		Gmaps4HistVest.map.adjust_to_bounds();
+		Gmaps4HistVest.map.clusterize();
+	});
+	</script>
+
+	<div class="map_container"> 
+	  <div id="map" style="position: relative; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0);"></div>
+	</div>
+	
+	<%= link_to (I18n.t("welcome.link_to_touch_version", :default => "Se kun kart")), "http://touch.histvest.no" %>
+</div>

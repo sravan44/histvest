@@ -1,0 +1,8 @@
+http://no.wikipedia.org/w/index.php?fulltext=Search&search=svend%20foyn
+http://www.nb.no/services/search/v2/search?filter=digital:ja&q=svend%20foyn
+http://no.wikipedia.org/w/index.php?fulltext=Search&search=svend
+http://www.nb.no/services/search/v2/search?filter=digital:ja&q=svend
+http://preview.europeana.eu/api/v2/search.json?wskey=U4YHdx6jK&query=svend&start=1&rows=12&profile=standard
+http://preview.europeana.eu/api/v2/search.json?wskey=U4YHdx6jK&query=svend%20foyn&start=1&rows=12&profile=standard
+http://no.wikipedia.org/wiki/Svend_Foyn
+http://preview.europeana.eu/api/v2/record/09435/96E854CD2C62BAB37594B8CEAC60C7890F3ACB52.json?wskey=U4YHdx6jK

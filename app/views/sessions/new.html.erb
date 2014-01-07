@@ -1,0 +1,40 @@
+<% provide(:title, I18n.t("session.sign_in")) %>
+<div id="midd-wrapper">
+  <div class="front-page">
+  <!--Login Page Stats Here-->
+    <div class="login-wrap">
+      <div class="login-inner">
+        <div class="relative">
+          <div class="login-img"><img src="/assets/login-img.png" alt=""></div>
+        </div>
+        <div class="login-hd">
+            <%= I18n.t("session.sign_in")%>
+        </div>                
+        <%= form_for(:session, url: sessions_path) do |f| %>
+          <div class="login-cont">                    
+            <div class="row">
+                <label><%= f.label :email, I18n.t("session.email") %></label>
+                   <%= f.text_field :email, :class =>"login-input" %>                           
+              </div>
+              <div class="row">
+                <label><%= f.label :password, I18n.t("session.password") %></label>                           
+                   <%= f.password_field :password, :class => "pass-input" %>
+              </div>
+              <div class="row btn-div">
+                <label>&nbsp;</label>                  
+                  <%= f.submit I18n.t("session.sign_in"), :class=>"btn-login" %>
+                  <%= link_to I18n.t('session.forgot_password',:default=>"Forgot Password?"), forgot_pass_path, :class => "forgot-pass" %>                 
+              </div> 
+            </div>
+            <div class="login-bott">&nbsp;</div> 
+            <!-- <div style="display:none;height:250px;width:450px;background:#fff;" id="forgot_password">
+              <%#= render "forgot_password"%>
+            </div> -->
+        <% end %>
+        </div> 
+      </div>
+    </div>
+      <!--Login Page Ends Here-->
+  </div>
+</div>
+

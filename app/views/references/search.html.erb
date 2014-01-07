@@ -1,0 +1,21 @@
+
+<table class="table table-striped table-bordered table-hover table-condensed">
+  <tr>
+    <th><%= I18n.t("references.title")%></th>
+    <th><%= I18n.t("references.creator")%></th>
+    <th><%= I18n.t("references.lang")%></th>
+    <th><%= I18n.t("references.snippet")%></th>
+    <th><%= I18n.t("references.url")%></th>
+    <th><%= I18n.t("references.year")%></th>
+</tr>
+<% @references.each do |reference| %>
+  <tr>
+    <td><%= reference.title %></td>
+    <td><%= reference.creator %></td>
+    <td><%= reference.lang %></td>
+    <td><%= reference.snippet %></td>
+    <td><%= link_to I18n.t("references.url"), reference.url %></td>
+    <td><%= reference.year %></td>
+  </tr>
+<% end %>
+</table>
