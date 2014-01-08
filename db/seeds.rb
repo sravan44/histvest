@@ -59,7 +59,3 @@ Location.create!([
 	{ address: "Svend Foyns gate, Tonsberg, Norge"},
 	{ address: "Grevinneveien, Tonsberg, Norge"}
 ])
-
-Reference.create!([
-	{ url: "http://www.europeana.eu/portal/record/2021002/C_536_3A2.html?utm_source=api&utm_medium=api&utm_campaign=U4YHdx6jK", topic_id: 1 }
-])

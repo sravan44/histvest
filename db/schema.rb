@@ -20,8 +20,8 @@ ActiveRecord::Schema.define(version: 20140106135726) do
     t.integer  "user_id"
     t.string   "title"
     t.text     "content"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.boolean  "published"
     t.datetime "published_start"
     t.datetime "published_end"
@@ -32,8 +32,8 @@ ActiveRecord::Schema.define(version: 20140106135726) do
 
   create_table "avatars", force: true do |t|
     t.integer  "topic_id"
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "avatar_img_file_name"
     t.string   "avatar_img_content_type"
     t.integer  "avatar_img_file_size"
@@ -43,8 +43,8 @@ ActiveRecord::Schema.define(version: 20140106135726) do
 
   create_table "locations", force: true do |t|
     t.string   "address"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.float    "latitude"
     t.float    "longitude"
     t.boolean  "gmaps"
@@ -59,20 +59,20 @@ ActiveRecord::Schema.define(version: 20140106135726) do
     t.text     "content"
     t.integer  "searchable_id"
     t.string   "searchable_type"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "reference_sources", force: true do |t|
     t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "reference_types", force: true do |t|
     t.string   "name"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "typestrings"
   end
 
@@ -83,8 +83,8 @@ ActiveRecord::Schema.define(version: 20140106135726) do
     t.string   "lang"
     t.string   "snippet"
     t.string   "url"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.integer  "reference_type_id"
     t.integer  "reference_source_id"
     t.integer  "topic_id"
@@ -99,22 +99,22 @@ ActiveRecord::Schema.define(version: 20140106135726) do
     t.integer  "user_id"
     t.text     "reason"
     t.boolean  "unchanged",  default: true
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "search_topics", force: true do |t|
     t.string   "search_string"
     t.integer  "view_count"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "topics", force: true do |t|
     t.string   "title"
     t.text     "content"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.integer  "user_id"
     t.boolean  "published"
     t.datetime "published_start"
@@ -127,8 +127,8 @@ ActiveRecord::Schema.define(version: 20140106135726) do
     t.string   "name"
     t.string   "email"
     t.string   "password_digest"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "remember_token"
     t.string   "role"
     t.boolean  "status"
